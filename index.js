@@ -17,7 +17,7 @@ const client = new line.Client(config);
 const app = express();
 
 app.get('/', (req, res) => {
-    res.send('Hello World!');
+    res.send('Res send!');
   });
   
   // register a webhook handler with middleware
